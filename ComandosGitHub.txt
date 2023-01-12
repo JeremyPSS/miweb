@@ -1,0 +1,37 @@
+/*configuracion inicial de git en windows*/
+git config --global user.name "Jeremy Prieto"
+git config --global user.email idjfaosd@aidsfjaos.com
+git config --global core.editor "code --wait"
+git config --global -e //ver el archivo de configuracion de configuracion
+git config --global core.autocrlf [true]/[input] //true en win y input en mac y linux
+git config -h ver opciones de configuracion
+
+
+
+git init //para instalar git en nuestro proyecto
+
+git add [nombre del archivo] [nombre del archivo] ... //etapa staged
+git commit -m "[texto]" //para comprometer los cambios de los archivos DE LA CAPA staged
+git push //para
+git rm [nombre del archivo]
+git mv [nombre del archivo a cambiar el nombre] [nombre nuevo]
+
+/*Para restaurar cambios de un archivo que se encontro en la capa de staged*/
+git restore --staged archivo2.text
+git restore archivo2.text
+
+git diff //para ver detalladamente los cambios de codigo de los archivo que aun no estan en la etapa staged
+git diff -staged //ver detalles de cambios de archivos staged
+
+git log --oneline //ver los cambios del proyecto de forma resumida
+
+git status -s //ver de forma resumida el seguimiento de los archivos
+git status //same
+
+git checkout [e.g master] //para movernos entre ramas
+git merge ramab //para mezclar los cambios de la ramab en la rama master
+git checkout -b ramac //crear una ramac
+git branch //para ver que ramas estamos 
+git push -u origin ramac //crear la ramac en el repositorio de github
+
+git remote add origin https://github.com/JeremyPSS/miweb.git //para vincular el repositorio
