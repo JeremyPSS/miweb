@@ -11,6 +11,8 @@ git config -h ver opciones de configuracion
 git init //para instalar git en nuestro proyecto
 
 git add [nombre del archivo] [nombre del archivo] ... //etapa staged
+$ git add -A                       añadir todo
+$ git add .                        añadir todo(at the root of your project folder)
 git commit -m "[texto]" //para comprometer los cambios de los archivos DE LA CAPA staged
 git push //para
 git rm [nombre del archivo]
