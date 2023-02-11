@@ -37,3 +37,5 @@ git branch //para ver que ramas estamos
 git push -u origin ramac //crear la ramac en el repositorio de github
 
 git remote add origin https://github.com/JeremyPSS/miweb.git //para vincular el repositorio
+
+git clone https://github.com/jeferson0993/Simple-REST-API-with-PHP-and-MySQL.git
